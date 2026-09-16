@@ -233,7 +233,7 @@ FROM employees
 GROUP BY Business_Travel
 ORDER BY attrition_rate DESC;
 
--- Q15. How does overtime relate to attrition? ⭐
+-- Q15. How does overtime relate to attrition? 
 SELECT
     Over_Time,
     COUNT(*) AS total_employees,
